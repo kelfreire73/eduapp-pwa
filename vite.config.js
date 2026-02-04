@@ -7,6 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      filename: 'manifest.webmanifest',
       includeAssets: ['favicon.ico', 'logo192.png', 'logo512.png'],
       manifest: {
         name: 'EduApp - Plataforma Educacional',
